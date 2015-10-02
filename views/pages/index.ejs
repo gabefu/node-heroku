@@ -7,7 +7,20 @@
 <body>
 
   <% include ../partials/nav.ejs %>
-
+  <form method="get">
+    Who are you?<br>
+    <input type="text" value="Your name here"><br>
+    What are you doing?<br>
+    <input type="radio" name="thing1" value="eat">Eating food
+    <br>
+    <input type="radio" name="thing1" value="digest">Digesting food
+    <br>
+    <input type="radio" name="thing1" value="eatAndDigest">Eating and digesting food
+    <br>
+    <input type="radio" name="thing1" value="sad">Sad
+    <br>
+    <input type="submit" value="Submit">
+  </form>
 <div class="jumbotron text-center">
   <div class="container">
     <a href="/" class="lang-logo">
